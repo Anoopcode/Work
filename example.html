@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="stylesheet" href="example.css">
+    <h1 style="margin-left: 40%;">TODO LIST</h1>
+    </head>
+
+<body>
+   
+    <div>
+        <div id="list" class="column">
+    <h3>
+        Today
+    </h3>
+    <input type="text" id="todo">
+    <button type="submit" onclick="create()">Submit</button>
+     </div>
+    <div class="column">
+    <h3 >
+           Tommorow
+       </h3>
+    </div>
+    
+    
+
+</div>
+
+
+   
+         
+<script>
+function create(){
+var value = document.createElement("Li");
+var text = document.getElementById("todo").value; 
+var textnode=document.createTextNode(text);
+var dropbutton=document.createElement("button")
+var droptext=document.createTextNode("Change to Tommorow")
+dropbutton.
+value.appendChild(textnode);
+dropbutton.appendChild(droptext)
+document.getElementById("list").appendChild(value).appendChild(dropbutton);
+}
+function Secbutton(){
+    var 
+}
+
+</script>
+
+
+   <div >
+
+   </div>
+</body>
+</html>
